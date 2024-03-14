@@ -1,0 +1,84 @@
+*{margin: 0;padding: 0;}
+.header
+{
+    position: fixed;
+    top: 9px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 4%;
+    padding-left:1% ;
+    background-color: rgba(240, 235, 235, 0.616);
+    border-radius: 30px;
+
+}
+.logo h2
+{
+    color: rgb(5, 92, 92);
+    letter-spacing: 1px;
+}
+.nav a
+{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.banner
+{
+    width: 100%; 
+}
+.banner img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.title .line
+{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+}
+.title h3
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(105, 214, 84);
+}
+#wode
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.wode-img
+{
+    width: 30%;
+    height: 150px;
+}
+.wode-img img
+{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.wode-text
+{
+    width: 68%;
+}
+.wode-text p
+{
+    line-height: 2;
+    text-indent: 2em;
+}
